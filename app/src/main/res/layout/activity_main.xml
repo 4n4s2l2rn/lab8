@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Affiche le statut de l'opération -->
+    <TextView android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statut : prêt"
+        android:textSize="16sp" />
+
+    <!-- Barre de progression -->
+    <ProgressBar android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:visibility="invisible" />
+
+    <!-- Image affichée après chargement -->
+    <ImageView android:id="@+id/img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button android:id="@+id/btnLoadThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Charger image (Thread)" />
+
+    <Button android:id="@+id/btnCalcAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcul lourd (AsyncTask)" />
+
+    <Button android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afficher Toast" />
+
+</LinearLayout>
