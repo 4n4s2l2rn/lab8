@@ -15,6 +15,7 @@
 - Valider qu'une interface reste réactive pendant un traitement en arrière-plan
 
 ---
+<img width="320" height="640" alt="output" src="https://github.com/user-attachments/assets/3127c237-9b64-44f0-b002-6b889d4707b0" />
 
 ## Structure du projet
 
